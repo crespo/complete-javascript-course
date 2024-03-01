@@ -320,17 +320,96 @@
 // console.log(!statementA && statementB);
 // console.log(statementA || !statementB);
 
+// /**
+//  * Coding Challenge #3
+//  */
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+
+// if (scoreDolphins > scoreKoalas) {
+//     console.log("Dolphins win the trophy");
+// } else if (scoreKoalas > scoreDolphins) {
+//     console.log("Koalas win the trophy");
+// } else {
+//     console.log("Both win the trophy");
+// }
+
+// /**
+//  * The Switch Statement
+//  */
+
+// const day = 'sundae';
+
+// switch (day) {
+//     case 'monday': // day === 'monday';
+//         console.log('Plan course');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'tuesday':
+//         console.log('Prepare theory');
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('Write code examples');
+//         break;
+//     case 'friday':
+//         console.log('record videos');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('Enjoy your weekend =)');
+//         break;
+//     default:
+//         console.log('Not a valid day.');
+// }
+
+// if (day === 'monday') {
+//     console.log('Plan course');
+//     console.log('Go to coding meetup');
+// } else if (day === 'tuesday') {
+//     console.log('Prepare theory');
+// } else if (day === 'wednesday' || day === 'thursday') {
+//     console.log('Write code examples');
+// } else if (day === 'friday') {
+//     console.log('record videos');
+// } else if (day === 'saturday' || day === 'sunday') {
+//     console.log('Enjoy your weekend =)');
+// } else {
+//     console.log('Not a valid day.');
+// }
+
 /**
- * Coding Challenge #3
+ * Statements and Expressions
  */
 
-const scoreDolphins = (96 + 108 + 89) / 3;
-const scoreKoalas = (88 + 91 + 110) / 3;
+// Expression is a piece of code that produces a value
+// eg.: 3 + 4 or 1991 or true && false && !false
 
-if (scoreDolphins > scoreKoalas) {
-    console.log("Dolphins win the trophy");
-} else if (scoreKoalas > scoreDolphins) {
-    console.log("Koalas win the trophy");
-} else {
-    console.log("Both win the trophy");
-}
+// Statements is a bigger piece of code that doesn't produces a value
+// that translate our actions
+// if-else statement, for example
+
+// /**
+//  * Ternary Operator
+//  */
+
+// const age = 23;
+// age >= 18 ? console.log(`I like to drink wine 🍷`) : console.log('I like to drink water 💦'); // condition ? (if true) : (if false)
+
+// const drink = age >= 18 ? 'wine 🍷' : 'water 💦';
+// console.log(drink);
+
+// console.log(`I like to drink ${age >= 18 ? 'wine 🍷' : 'water 💦'}`);
+
+// /**
+//  * Coding Challenge #4
+//  */
+
+// const bill = 275;
+// const initialTip = 0.15;
+// const generalTip = 0.2;
+
+// const tip = bill >= 50 && bill <= 300 ? bill * initialTip : bill * generalTip
+
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
